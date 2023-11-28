@@ -8,10 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        montserrat: ['Montserrat', 'sans-serif']
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+       'radial-gradient' : "radial-gradient(103.88% 58.43% at 56.74% 50%, #0085FF 0%, #003465 100%)"
       },
     },
   },
